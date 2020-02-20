@@ -1,0 +1,196 @@
+*{
+	padding: 0;
+	margin: 0;
+	 
+	text-align: center;
+	
+}
+
+@keyframes label{
+	from{
+		margin-left: 0;
+	}
+	to{
+		margin-left: 30vw;
+	}
+}
+@keyframes label-animation{
+	from{
+		transform: rotate(0deg);
+		
+	}
+	to{
+		transform: rotate(360deg);
+		
+	}
+}
+@keyframes animacion_test{
+	from{
+		background-color:  black;
+	}
+	to{
+		background-color: #284B63;
+	}
+
+} 
+@keyframes animacion{
+	from{
+		background-color:  white;
+	}
+	to{
+		background-color: #F4F9E9;
+	}
+} 
+
+
+html, body{
+	background-color: #0E0E52;
+}
+section{
+	width: 30%;
+	height: 30%;
+}
+
+.main{
+	border-radius: 5%;
+	margin: 1rem;
+	background-color: #0E0E52; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+nav, section, footer, article, aside{
+	border: 10px solid color:#FFFFFF;
+	margin: 5px;
+	border-radius: 15px;
+	padding: 5px;
+}
+article{
+	text-align: left;
+	width: 90%;
+	display: inline-block;
+	height: 40%;
+	background-color: #56CBF9; 
+}
+ section{
+	background-color: #449DD1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+nav{
+	background-color: #3943B7;
+}
+
+#lista1 li{
+	
+	display:inline;
+     padding-left:15px;
+     padding-right:15px;
+     text-align: right;
+     background-color: #F4F9E9;
+     border-radius: 5px;
+}
+
+header{
+
+	animation: animacion_test 3s alternate infinite;
+	margin-top: 10px;
+	margin: 10px;
+	background-color: #008751;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 15px;
+	padding-top:50px;
+	padding-bottom: 50px;
+}
+section, aside{
+	display: inline-block;
+}
+
+aside{
+	align-items: left;
+	width: 60%;
+	background-color: #153243;
+}
+#titulo{
+	
+	animation: animacion 3s alternate infinite;
+	font-family: "Arial black";
+	font-size: 20px;
+	background-color: yellow;
+	text-decoration-color: black;
+	border-radius: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+
+
+
+}
+#articuloo{
+	font-family: "Time new roman"
+	font-size: 22px;
+}
+#listaa li{
+	color: white;
+	text-align: left;
+	background-color: #3B7080;
+	border-radius: 5px;
+}
+
+footer {
+	background-color: #150578;
+	color: white;
+	align-content: center;
+}
+
+footer img{
+	width: 50px;
+	right: 50px;
+	display: inline;
+}
+aside article{
+	width: 90%;
+	background-color: #B1F8F2;
+}
+header img{
+
+	display: inline-block;
+	float: left;
+	padding-top: 0px;
+	padding-left: 0px;
+	border-radius: 20px
+
+}
+
+img{
+	border-radius: 100%;
+	display: inline-block;
+	animation: label-animation;
+	animation-duration: 4s; 
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.label-container{
+	width: 100%;
+	padding: 1rem;
+	box-sizing: border-box;
+}
+.label{
+	width: 700px;
+	color: #4B296B;
+	font-size: 1.3rem;
+	padding: 1rem;
+	border-radius: 30px;
+	text-align:center;
+	animation-name: label;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
